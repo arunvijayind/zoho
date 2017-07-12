@@ -6,10 +6,10 @@ public class FatherChild
 	public static void main(String[] args) 
 	{
 		String[][] str = {
-							{"luke" , "shaw"},
-							{"wayne" , "rooney"},
-							{"rooney" , "ronaldo"},
-							{"shaw" , "rooney"}};
+					{"luke" , "shaw"},
+					{"wayne" , "rooney"},
+					{"rooney" , "ronaldo"},
+					{"shaw" , "rooney"}};
 		String father = "rooney";	
 		String[] child = new String[10];
 		int j=0;
