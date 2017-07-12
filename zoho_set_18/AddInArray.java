@@ -22,8 +22,5 @@ public class AddInArray {
 		for(int i=max_arr_size-1;i>=0;i--){
 			System.out.print(sum_arr[i]);
 		}
-		
-
 	}
-
 }
