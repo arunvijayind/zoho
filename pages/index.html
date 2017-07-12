@@ -4,7 +4,6 @@
     <link type="text/css" rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
-        hello world....
         <div id="wrapper">
           <div id="header">
           
@@ -13,6 +12,11 @@
             <div class="post">
               <h1> Post title </h1>
               <p> title </p>
+              
+              <c:import var="content" url="../zoho_set_1/FatherChild.java"/>
+                <pre>
+                  <c:out value="${content}"/>
+                </pre>
             </div>
           </div>
         </div>
